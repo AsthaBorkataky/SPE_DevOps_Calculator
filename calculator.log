@@ -1,0 +1,26 @@
+08/Apr/2022:22:48:47 316 [Calculator.java] [INFO] Calculator Power : 4.0^2.0/n Result : 16.0
+08/Apr/2022:22:48:47 345 [Calculator.java] [INFO] Calculator Power : 2.0^-2.0/n Result : 0.25
+08/Apr/2022:22:48:47 347 [Calculator.java] [INFO] Calculator Power : 1.0^4.0/n Result : 1.0
+08/Apr/2022:22:48:47 348 [Calculator.java] [INFO] Calculator Power : 2.0^4.0/n Result : 16.0
+08/Apr/2022:22:48:47 358 [Calculator.java] [INFO] Calculator Calculating Square Root of : 36.0
+ Result : 6.0
+08/Apr/2022:22:48:47 359 [Calculator.java] [INFO] Calculator Calculating Square Root of : -36.0
+ Result : NaN
+08/Apr/2022:22:48:47 365 [Calculator.java] [INFO] Calculator Factorial of the number : 5
+ Result is : 120.0
+08/Apr/2022:22:48:47 366 [Calculator.java] [INFO] Calculator Factorial of a negative number is not possible!
+08/Apr/2022:22:48:47 368 [Calculator.java] [INFO] Calculator Calculating Square Root of : -36.0
+ Result : NaN
+08/Apr/2022:22:48:47 369 [Calculator.java] [INFO] Calculator Calculating Square Root of : 36.0
+ Result : 6.0
+08/Apr/2022:22:48:47 370 [Calculator.java] [INFO] Calculator Factorial of a negative number is not possible!
+08/Apr/2022:22:48:47 371 [Calculator.java] [INFO] Calculator Factorial of the number : 5
+ Result is : 120.0
+08/Apr/2022:22:48:47 372 [Calculator.java] [INFO] Calculator Calculating Natural Logarithm of : 4.0
+ Result : 1.3862943611198906
+08/Apr/2022:22:48:47 374 [Calculator.java] [INFO] Calculator Calculating Natural Logarithm of : -4.0
+ Result : NaN
+08/Apr/2022:22:48:47 376 [Calculator.java] [INFO] Calculator Calculating Natural Logarithm of : -4.0
+ Result : NaN
+08/Apr/2022:22:48:47 377 [Calculator.java] [INFO] Calculator Calculating Natural Logarithm of : 4.0
+ Result : 1.3862943611198906
