@@ -1,2 +1,2 @@
 # SPE_DevOps_Calculator
-A mini calculator project using DevOps
+A Mini Calculator Project using DevOps
