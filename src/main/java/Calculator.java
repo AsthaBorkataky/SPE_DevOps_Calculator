@@ -2,10 +2,41 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import static java.lang.Math.log;
+import static java.lang.Math.pow;
+import static java.lang.Math.sqrt;
+
 
 public class Calculator {
 
-    private static final Logger logger = LogManager.getLogger(Calculator.class);
+    private static final Logger log = LogManager.getLogger(Calculator.class);
+
+    public static double square_root_func(double num){
+        log.info("Calculating Square Root of : " + num + "\n Result : " + sqrt(num));
+        return sqrt(num);
+    }
+
+    public static double factorial_func(int n){
+        if(n<0) {
+            log.info("Factorial of a negative number is not possible!");
+            return Double.NaN;
+        }
+        double f=1;
+        for(int i=1;i<=n;i++){
+            f*=i;
+        }
+        log.info("Factorial of the number : " + n + "\n Result is : " + f);
+        return f;
+    }
+
+    public static double logarithm_func(double number){
+        log.info("Calculating Natural Logarithm of : " + number + "\n Result : " + log(number));
+        return log(number);
+    }
+    public static double power_func(double numb,double p){
+        log.info("Power : " + numb + "^" + p + "/n Result : " + pow(numb, p));
+        return pow(numb,p);
+    }
     public static void main(String[] args) {
 
         while (true) {
@@ -54,32 +85,7 @@ public class Calculator {
         }
     }
 
-    public static double square_root_func(double num){
-        logger.info("Calculating Square Root of : " + num + "\n Result : " + Math.sqrt(num));
-        return java.lang.Math.sqrt(num);
-    }
 
-    public static double factorial_func(int n){
-        if(n<0) {
-            logger.info("Factorial of a negative number is not possible!");
-            return Double.NaN;
-        }
-        double f=1;
-        for(int i=1;i<=n;i++){
-            f=f*i;
-        }
-        logger.info("Factorial of the number : " + n + "\n Result is : " + f);
-        return f;
-    }
-
-    public static double logarithm_func(double number){
-        logger.info("Calculating Natural Logarithm of : " + number + "\n Result : " + Math.log(number));
-        return java.lang.Math.log(number);
-    }
-    public static double power_func(double numb,double p){
-        logger.info("Power : " + numb + "^" + p + "/n Result : " + Math.pow(numb, p));
-        return java.lang.Math.pow(numb,p);
-    }
 
 }
 
