@@ -1,2 +1,2 @@
 [ubuntu]
-172.16.133.213 ansible_user=astha
+127.0.0.1 ansible_user=astha
