@@ -39,7 +39,7 @@ public class Calculator {
     }
     public static void main(String[] args) {
 
-        while (true) {
+        do {
             System.out.println("Enter the operation that you wish to perform: \n 1.Square Root \n 2.Factorial \n 3.Natural Log\n 4.Power \n 5.Exit\n");
             Scanner sc = new Scanner(System.in);
             int choice = sc.nextInt();
@@ -82,7 +82,7 @@ public class Calculator {
             }
 
 
-        }
+        }while(true);
     }
 
 
